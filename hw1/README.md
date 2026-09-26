@@ -28,20 +28,35 @@
 
 Полные математические выкладки представлены в файле `hw1_handwritten.pdf`. Итоговые замкнутые функции имеют вид:
 
-**FLOPs(S, B):**
-$$\text{FLOPs}(S, B) = (17\,712 \cdot S^2 + 313\,344) \cdot B$$
+FLOPs(S, B):
 
-**Memory(S, B):**
-$$\text{Memory}(S, B) = 4 \cdot (26 \cdot B \cdot S^2 + 868 \cdot B + 1\,039\,968) \text{ байт}$$
+$$
+\text{FLOPs}(S, B) = (17\,712 \cdot S^2 + 313\,344) \cdot B
+$$
 
-**Bytes\_Moved(S, B):**
-$$\text{Bytes\_Moved}(S, B) = 4 \cdot (91 \cdot B \cdot S^2 + 2\,148 \cdot B + 1\,039\,968) \text{ байт}$$
+Memory(S, B):
 
-**Latency(S, B, θ):**
-$$\text{Latency}(S, B, \theta) = \theta_1 \cdot \text{FLOPs}(S, B) + \theta_2 \cdot \text{Bytes\_Moved}(S, B) + \theta_3$$
+$$
+\text{Memory}(S, B) = 4 \cdot (26 \cdot B \cdot S^2 + 868 \cdot B + 1\,039\,968) \text{ байт}
+$$
 
-**Energy(S, B, α):**
-$$\text{Energy}(S, B, \alpha) = \alpha_1 \cdot \text{FLOPs}(S, B) + \alpha_2 \cdot \text{Bytes\_Moved}(S, B) + \alpha_3$$
+Bytes Moved(S, B):
+
+$$
+\text{BytesMoved}(S, B) = 4 \cdot (91 \cdot B \cdot S^2 + 2\,148 \cdot B + 1\,039\,968) \text{ байт}
+$$
+
+Latency(S, B, θ):
+
+$$
+\text{Latency}(S, B, \theta) = \theta_1 \cdot \text{FLOPs}(S, B) + \theta_2 \cdot \text{BytesMoved}(S, B) + \theta_3
+$$
+
+Energy(S, B, α):
+
+$$
+\text{Energy}(S, B, \alpha) = \alpha_1 \cdot \text{FLOPs}(S, B) + \alpha_2 \cdot \text{BytesMoved}(S, B) + \alpha_3
+$$
 
 Для Latency и Energy изначально предполагалась полная модель. Однако в ходе экспериментов потребовалась ее адаптация.
 
