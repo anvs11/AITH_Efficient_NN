@@ -1,0 +1,16 @@
+{
+  "rule": "noise-drop: never-learned excluded",
+  "fraction": 0.2,
+  "dropped_per_class": [
+    3457,
+    6987,
+    802
+  ],
+  "arm": {
+    "macro_f1": 0.9213483531425082,
+    "hitrate5": 0.8453955901426718,
+    "hit_f1": 0.8143423334159029,
+    "n_train": 104001,
+    "target_sec": 2124
+  }
+}

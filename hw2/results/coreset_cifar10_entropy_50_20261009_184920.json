@@ -1,0 +1,12 @@
+{
+  "dataset": "cifar10",
+  "method": "entropy",
+  "fraction": 0.5,
+  "seed": 42,
+  "n_train": 50000,
+  "k": 25000,
+  "target_test_acc": 0.952,
+  "proxy_sec": 825.8928983000224,
+  "selection_sec": 16.04192580000381,
+  "target_sec": 13711.991148200002
+}

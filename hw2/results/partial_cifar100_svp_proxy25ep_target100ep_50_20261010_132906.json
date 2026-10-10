@@ -1,0 +1,14 @@
+{
+  "dataset": "cifar100",
+  "method": "svp",
+  "proxy_epochs": 25,
+  "target_epochs": 100,
+  "fraction": 0.5,
+  "seed": 42,
+  "n_train": 50000,
+  "k": 25000,
+  "target_test_acc": 0.716,
+  "proxy_sec": 267.9338403000147,
+  "selection_sec": 0.002424100006464869,
+  "target_sec": 6078.761213399994
+}

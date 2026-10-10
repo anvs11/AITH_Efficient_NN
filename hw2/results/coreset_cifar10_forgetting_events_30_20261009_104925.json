@@ -1,0 +1,12 @@
+{
+  "dataset": "cifar10",
+  "method": "forgetting_events",
+  "fraction": 0.3,
+  "seed": 42,
+  "n_train": 50000,
+  "k": 15000,
+  "target_test_acc": 0.9279,
+  "proxy_sec": 790.6689572999894,
+  "selection_sec": 0.0001002000062726438,
+  "target_sec": 8973.867155899992
+}

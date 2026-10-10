@@ -18,3 +18,11 @@ env/
 # OS files
 .DS_Store
 Thumbs.db
+
+data/amazon/*.jsonl
+data/amazon/*.jsonl.gz
+data/amazon/*.tar.gz
+data/amazon/*.npy
+data/amazon/*.npz
+data/amazon/*.parquet
+data/cifar-*/

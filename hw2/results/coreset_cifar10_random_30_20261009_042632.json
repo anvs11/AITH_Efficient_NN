@@ -1,0 +1,11 @@
+{
+  "dataset": "cifar10",
+  "method": "random",
+  "fraction": 0.3,
+  "seed": 42,
+  "n_train": 50000,
+  "k": 15000,
+  "target_test_acc": 0.9057,
+  "proxy_sec": 0.0,
+  "target_sec": 8939.496571399999
+}
